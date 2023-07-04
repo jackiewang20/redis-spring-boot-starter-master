@@ -27,7 +27,9 @@
 // * @author jackie wang
 // * @Title: RedisAutoConfiguration
 // * @ProjectName redis-spring-boot-starter-master
-// * @Description: Redis客户端自动配置，使用jedis客户端库；配置RedisTemplate，StringRedisTemplate客户端工具类。
+// * @Description: Redis客户端自动配置，使用jedis客户端库；
+// * 配置RedisTemplate，StringRedisTemplate客户端工具类。
+// * 待验证。。。。。。
 // * @date 2019/10/30 11:36
 // */
 //@Configuration

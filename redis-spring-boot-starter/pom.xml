@@ -24,11 +24,19 @@
             </exclusions>
         </dependency>
         <!-- redis操作：lettuce客户端包 -->
+        <!-- https://mvnrepository.com/artifact/io.lettuce/lettuce-core -->
         <dependency>
-            <groupId>biz.paluch.redis</groupId>
-            <artifactId>lettuce</artifactId>
-            <version>4.4.6.Final</version>
+            <groupId>io.lettuce</groupId>
+            <artifactId>lettuce-core</artifactId>
+            <version>6.1.2.RELEASE</version>
         </dependency>
+
+        <!-- redis依赖 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
         <!-- 数据库连接池 -->
         <dependency>
             <groupId>org.apache.commons</groupId>
