@@ -1,4 +1,4 @@
-readme
+[readme]
 
 0.概述
     当前示例的自定义starter组件redis-spring-boot-starter，默认使用redis客户端库lettuce。
